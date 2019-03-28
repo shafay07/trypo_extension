@@ -11,7 +11,7 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["lib/load-image.all.min.js", "content.js"]
+            "js": ["content.js"]
         }
     ],
     "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.2/dist/tf.min.js; object-src 'self'"
